@@ -4,8 +4,8 @@ import Sidebar from "../../components/Sidebar";
 
 const page = () => {
   return (
-    <main className="">
-      <Navbar className="w-[80%]" />
+    <main className="flex flex-row-reverse">
+      <Navbar />
       <Sidebar />
     </main>
   );

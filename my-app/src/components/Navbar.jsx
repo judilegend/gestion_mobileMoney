@@ -3,9 +3,9 @@ import SearchBar from "./SearchBar";
 
 const Navbar = () => {
   return (
-    <main className="w-full h-24 bg-[#FAFBFC] px-10 shadow-b-xl flex items-center justify-between">
+    <main className="w-full  h-24 bg-[#FAFBFC] px-10 shadow-sm flex items-center justify-between">
       <section>
-        <h1 className="text-gray-600 text-2xl">Tableau de Bord</h1>
+        <h1 className="text-gray-600 font-bold text-2xl">Tableau de Bord</h1>
       </section>
       <section className="flex gap-2 items-center">
         <div>
