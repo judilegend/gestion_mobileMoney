@@ -3,7 +3,7 @@ import SearchBar from "./SearchBar";
 
 const Navbar = () => {
   return (
-    <main className="w-full relative  h-24 bg-[#FAFBFC] px-10 shadow-sm flex items-center justify-between">
+    <main className="w-full relative  h-24 bg-[#FAFBFC] px-8 shadow-sm flex items-center justify-between">
       <section>
         <h1 className="text-gray-600 font-bold text-2xl">Tableau de Bord</h1>
       </section>
