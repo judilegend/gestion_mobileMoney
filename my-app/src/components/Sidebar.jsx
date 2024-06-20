@@ -31,27 +31,31 @@ const Sidebar = () => {
             </span>
           </div>
           <div className="p-2.5 mt-3 flex items-center rounded-md px-4 duration-300 cursor-pointer hover:bg-blue-600 text-white">
-            <i className="bi bi-house-door-fill"></i>
+            <img src="/icon/operation.svg" alt="" />
             <span className="text-[15px] ml-4 text-gray-200 font-bold">
               Operation CRUD
             </span>
           </div>
           <div className="p-2.5 mt-3 flex items-center rounded-md px-4 duration-300 cursor-pointer hover:bg-blue-600 text-white">
-            <i className="bi bi-house-door-fill"></i>
+            <img
+              src="/icon/Initiate Money Transfer.svg"
+              alt=""
+              className="w-6"
+            />
             <span className="text-[15px] ml-4 text-gray-200 font-bold">
               Envoyer
             </span>
           </div>
           <div className="p-2.5 mt-3 flex items-center rounded-md px-4 duration-300 cursor-pointer hover:bg-blue-600 text-white">
-            <i className="bi bi-house-door-fill"></i>
+            <img src="/icon/Receive Dollar.svg" alt="" className="w-6" />
             <span className="text-[15px] ml-4 text-gray-200 font-bold">
               Retirer
             </span>
           </div>
           <div className="p-2.5 mt-3 flex items-center rounded-md px-4 duration-300 cursor-pointer hover:bg-blue-600 text-white">
-            <i className="bi bi-house-door-fill"></i>
+            <img src="/icon/Unread messages.svg" alt="" className="w-6" />
             <span className="text-[15px] ml-4 text-gray-200 font-bold">
-              Notofication
+              Notification
             </span>
           </div>
         </ul>
