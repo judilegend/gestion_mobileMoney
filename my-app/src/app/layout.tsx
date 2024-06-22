@@ -3,6 +3,11 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
+import { Providers } from "./Providers";
+import Sidebar from "@/components/Sidebar";
+import Navbar from "@/components/Navbar";
+import Card from "@/components/Card";
+// import Sidebar from "@/components/Sidebar";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +21,27 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body>
+        <Providers>
+          <div className="grid grid-cols-[300px,1fr] grid-rows-[70px,1fr]  h-screen">
+            <div className="row-span-2 ">
+              <Sidebar />
+            </div>
+            <div className="col-span-1 ">
+              <Navbar />
+            </div>
+            <div className="col-start-2 row-start-2 px-8">
+              <section className="flex w-full justify-between">
+                {/* <Card />
+                <Card />
+                <Card />
+                <Card /> */}
+                {children}
+              </section>
+            </div>
+          </div>
+        </Providers>
+      </body>
     </html>
   );
 }
