@@ -27,13 +27,13 @@ const Sidebar = () => {
             {/* <i className="bi bi-house-door-fill"></i> */}
             <img src="/icons.png" alt="" />
             <span className="text-[15px] ml-4 text-gray-200 font-bold">
-              Tableau de board
+              <a href="dashboard"> Tableau de board</a>
             </span>
           </div>
           <div className="p-2.5 mt-3 flex items-center rounded-md px-4 duration-300 cursor-pointer hover:bg-blue-600 text-white">
             <img src="/icon/operation.svg" alt="" />
             <span className="text-[15px] ml-4 text-gray-200 font-bold">
-              Operation CRUD
+              <a href="operation">Operation CRUD</a>
             </span>
           </div>
           <div className="p-2.5 mt-3 flex items-center rounded-md px-4 duration-300 cursor-pointer hover:bg-blue-600 text-white">
