@@ -2,7 +2,7 @@ import React from "react";
 
 const Sidebar = () => {
   return (
-    <main className="sidebar h-screen   top-0 bottom-0 lg:left-0 left-[-300px] p-2 w-[300px] overflow-y-auto text-center bg-gray-900">
+    <main className="sidebar h-screen fixed  top-0 bottom-0 lg:left-0 left-[-300px] p-2 w-[300px] overflow-y-auto text-center bg-gray-900">
       {/* <section className=" mx-auto w-fit ">
         <div className="text-lg font-bold text-gray-600 ">
           G-Mobile <span className="text-bleu">Money</span>
@@ -33,7 +33,7 @@ const Sidebar = () => {
           <div className="p-2.5 mt-3 flex items-center rounded-md px-4 duration-300 cursor-pointer hover:bg-blue-600 text-white">
             <img src="/icon/operation.svg" alt="" />
             <span className="text-[15px] ml-4 text-gray-200 font-bold">
-              <a href="operation">Operation CRUD</a>
+              <a href="operation">Client</a>
             </span>
           </div>
           <div className="p-2.5 mt-3 flex items-center rounded-md px-4 duration-300 cursor-pointer hover:bg-blue-600 text-white">
