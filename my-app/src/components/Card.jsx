@@ -18,6 +18,7 @@ const Card = () => {
           </g>
         </svg> */}
         <img src="/Frame 1171275858.svg" alt="" />
+
         <p class="cookieHeading">We use cookies.</p>
         <p class="cookieDescription">
           We use cookies to ensure that we give you the best experience on our
