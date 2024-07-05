@@ -1,0 +1,212 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/style/SearchBar.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************/
+.searchbar {
+  font-size: 14px;
+  font-family: arial, sans-serif;
+  color: #202124;
+  display: flex;
+  z-index: 3;
+  height: 44px;
+  background: white;
+  /* border: 1px solid #dfe1e5; */
+  /* box-shadow: none; */
+  border-radius: 24px;
+  margin: 0 auto;
+  width: auto;
+  max-width: 224px;
+}
+
+.searchbar:hover {
+  box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+  border-color: rgba(223, 225, 229, 0);
+}
+
+.searchbar-wrapper {
+  flex: 1;
+  display: flex;
+  padding: 5px 8px 0 14px;
+}
+
+.searchbar-left {
+  font-size: 14px;
+  font-family: arial, sans-serif;
+  color: #202124;
+  display: flex;
+  align-items: center;
+  padding-right: 13px;
+  margin-top: -5px;
+}
+
+.search-icon-wrapper {
+  margin: auto;
+}
+
+.search-icon {
+  margin-top: 3px;
+  color: #9aa0a6;
+  height: 20px;
+  line-height: 20px;
+  width: 20px;
+}
+
+.searchbar-icon {
+  display: inline-block;
+  fill: currentColor;
+  height: 24px;
+  line-height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.searchbar-center {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.searchbar-input-spacer {
+  color: transparent;
+  flex: 100%;
+  white-space: pre;
+  height: 34px;
+  font-size: 16px;
+}
+
+.searchbar-input {
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.87);
+  word-wrap: break-word;
+  outline: none;
+  display: flex;
+  flex: 100%;
+  margin-top: -37px;
+  height: 34px;
+  font-size: 16px;
+  max-width: 100%;
+  width: 100%;
+}
+
+/* .searchbar-right {
+  display: flex;
+  flex: 0 0 auto;
+  margin-top: -5px;
+  align-items: stretch;
+  flex-direction: row;
+}
+
+.searchbar-clear-icon {
+  margin-right: 12px;
+}
+
+.voice-search {
+  flex: 1 0 auto;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  border: 0;
+  background: transparent;
+  outline: none;
+  padding: 0 8px;
+  width: 2.8em;
+} */
+
+/*!****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./src/style/Card.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************/
+.card {
+  width: 350px;
+  height: 220px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 30px;
+  gap: 13px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.062);
+}
+
+#cookieSvg {
+  width: 50px;
+}
+
+#cookieSvg g path {
+  fill: rgb(97, 81, 81);
+}
+
+.cookieHeading {
+  font-size: 1.2em;
+  font-weight: 800;
+  color: rgb(26, 26, 26);
+}
+
+.cookieDescription {
+  text-align: center;
+  font-size: 1em;
+  font-weight: 600;
+  color: rgb(99, 99, 99);
+}
+
+.cookieDescription a {
+  --tw-text-opacity: 1;
+  color: rgb(59 130 246);
+}
+
+.cookieDescription a:hover {
+  -webkit-text-decoration-line: underline;
+  text-decoration-line: underline;
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+}
+
+.acceptButton {
+  width: 80px;
+  height: 30px;
+  background-color: #7b57ff;
+  transition-duration: 0.2s;
+  border: none;
+  color: rgb(241, 241, 241);
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px -1px #977ef3, 0 2px 4px -1px #977ef3;
+  transition: all 0.6s ease;
+}
+
+.declineButton {
+  width: 80px;
+  height: 30px;
+  background-color: #dadada;
+  transition-duration: 0.2s;
+  color: rgb(46, 46, 46);
+  border: none;
+  cursor: not-allowed;
+  font-weight: 600;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px -1px #bebdbd, 0 2px 4px -1px #bebdbd;
+  transition: all 0.6s ease;
+}
+
+.declineButton:hover {
+  background-color: #ebebeb;
+  box-shadow: 0 10px 15px -3px #bebdbd, 0 4px 6px -2px #bebdbd;
+  transition-duration: 0.2s;
+}
+
+.acceptButton:hover {
+  background-color: #9173ff;
+  box-shadow: 0 10px 15px -3px #977ef3, 0 4px 6px -2px #977ef3;
+  transition-duration: 0.2s;
+}
+
